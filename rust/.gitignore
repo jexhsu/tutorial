@@ -1,0 +1,28 @@
+# Cargo build
+/target/
+
+# Build artifacts
+debug/
+release/
+*.rlib
+*.rmeta
+
+# Generated files
+Cargo.lock
+*.log
+
+# Rust Analyzer / IDE
+.idea/
+.vscode/
+*.iml
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.history/
+
+# Temporary or test output
+tmp/
+*.tmp
