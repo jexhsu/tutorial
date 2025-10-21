@@ -1,0 +1,76 @@
+# Erlang specific
+*.beam
+*.app
+*.appup
+*.boot
+*.rel
+*.script
+*.ez
+*.tar.gz
+
+# Dialyzer
+.plt
+*.plt
+.plt_history
+
+# Rebar3
+_build/
+.rebar3/
+.rebar/
+.releases/
+.erlang.mk/
+
+# Dependencies
+deps/
+_deps/
+
+# eunit tests
+.eunit/
+log/
+logs/
+
+# Emacs
+*.elc
+*~
+
+# VS Code
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Erlang crash dumps
+erl_crash.dump
+*.dump
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Coverage reports
+cover/
+coverage/
+*.coverdata
+
+# Documentation
+doc/
+edoc-info
+*.html
+*.css
+*.png
+
+# Package files
+*.ez
+
+# Deployment files
+*.tar.gz
